@@ -1,0 +1,51 @@
+:root{
+    --colors :violet;
+}
+.class-1 {
+    color: var(--colors);
+    border: 50px ;
+    
+    border-color: red;
+}
+
+.class-4 .class-5{
+    color: blue;
+}
+p {
+   text-decoration: underline;
+}
+*{
+ font-weight: bold;
+}
+h3, h4{
+    color: yellow;
+}
+.list li{
+    color: black;
+}
+.list > li{
+    color: blueviolet;
+}
+.class-9 +p{
+    color: aquamarine;
+}
+.class-10 ~p{
+    color: blanchedalmond;
+    background-image:linear-gradient(to right,rgba(174, 35, 35, 0.5),rgba(1,1,1,1.5)) ;
+
+}
+.box{
+     width: 100%;/*//100% trình duyệt */
+    height: 100vh;
+    background: url(https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/hinh-anh-cute-anime-001.jpg) center / contain no-repeat ;
+  }
+.box:hover{
+    background-color: green;
+
+
+}
+li:first-child{
+          background-color: rgb(39, 31, 160);
+          border: 10px solid red;
+          background-clip: text-box;
+}

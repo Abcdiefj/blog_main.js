@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <ul class="courses-list">
+
+    </ul>
+    <script>
+             var courses = ['HTML & CSS', 'Javascript', 'PHP', 'Java']
+
+function render(courses) {
+    var a=document.querySelector('.courses-list')
+    for(var i in courses){
+        a.innerHTML+=`<li>${courses[i]}</li>`
+    }
+}
+
+
+render(courses)
+var b=document.querySelector('.courses-list');
+console.log([b])
+    </script>
+   
+    
+</body>
+</html>
